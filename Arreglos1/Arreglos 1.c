@@ -6,9 +6,10 @@ int main()
     float temp[24];
     int dummy;
 
-    printf("Direcci髇 de memoria de 2 flotantes: &temp1: %i\n&temp2: %i\n", &temp1, &temp2);
-    printf("Direcci髇 de temp[24]: %i\n", temp);
-    printf("Direcci髇 de temp[24]: %i\n", &temp[24]);
-    printf("Direcci髇 de &dummy: %i", &dummy);
+    printf("Direcci贸n de memoria de 2 flotantes: &temp1: %i\n&temp2: %i\n", &temp1, &temp2);
+    printf("Direcci贸n de temp[24]: %i\n", temp);
+    printf("Direcci贸n de temp[24]: %i\n", &temp[24]);
+    printf("Direcci贸n de &dummy: %i", &dummy);
     return 0;
 }
+
